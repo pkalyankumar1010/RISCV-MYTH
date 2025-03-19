@@ -57,7 +57,7 @@
 - Lab : Sequential Calculator
     - ![alt text](./images/seq_calc_prob.png)
     - ![alt text](./images/seq_calc.png)
-    
+
     - ```v
         $val1[31:0] = >>1$out;
         //$val2[31:0] = 32'b1;
@@ -72,7 +72,7 @@
                             ($op[1:0] == 2'b11) ? $quot[31:0] : 32'b0 )
                             ;
         ```
-
+- Should start with RV_D3SK3_L1_Pipelined Logic And Re-Timing video Tomorrow
 ### Coding a RISC-V CPU Subset
 
 ### Pipelining and Completing your CPU
