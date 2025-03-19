@@ -2,7 +2,7 @@
 
 
 - Follow VSDSquadronFMDatasheet.pdf and follow instructions
-    - Download vdi file https://forgefunder.com/~kunal/vsd_workshop.vdi
+    - Download vdi file https://forgefunder.com/~kunal/riscv_workshop.vdi
     - Install Oracle Virtualbox https://www.virtualbox.org/wiki/Downloads
 - Progress doc 
     - https://docs.google.com/spreadsheets/d/1GMimG56cLoMpC9Us7Ub7hMD22D16zcsfcVL7WmjurcE/edit?gid=0#gid=0
