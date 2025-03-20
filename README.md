@@ -14,8 +14,8 @@
 </details>
 
 # **Day 0**
-    - Created lab setup with OracleVirtual box and risv_workshop.vdi
-    - ![setup](./images/myth_worskop_setup.jpg)
+- Created lab setup with OracleVirtual box and risv_workshop.vdi
+- ![setup](./images/myth_worskop_setup.jpg)
 # **Day 1**
     - 
 # **Day 2**
