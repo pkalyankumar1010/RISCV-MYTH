@@ -16,14 +16,14 @@
 - TASK 0 
     - Created lab setup with OracleVirtual box and risv_workshop.vdi
     - ![setup](./images/myth_worskop_setup.jpg)
-- Day 1
+# **Day 1**
     - 
-- Day 2
+# **Day 2**
     - 
-- Day 3
+# **Day 3**
     - https://github.com/stevehoover/RISC-V_MYTH_Workshop?tab=readme-ov-file
 
-## Buiding a RISCV-Core
+## Buiding a RISCV-Core [Top](#RISCV-MYTH)
 
 ### Digital logic with TL-verilog in Makerchip IDE
 - TL-verilog is extension of verilog called Transaction Level Verilog
