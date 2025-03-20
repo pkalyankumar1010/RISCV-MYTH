@@ -25,6 +25,9 @@
 
 ## Buiding a RISCV-Core [🔝](#riscv-myth)
 - [Digital logic with TL-verilog in Makerchip IDE](#digital-logic-with-tl-verilog-in-makerchip-ide)
+- [Coding a RISC-V CPU Subset](#coding-a-risc-v-cpu-subset)
+- [Pipelining and Completing your CPU](#pipelining-and-completing-your-cpu)
+
 ### Digital logic with TL-verilog in Makerchip IDE
 - TL-verilog is extension of verilog called Transaction Level Verilog
 - Topics
