@@ -23,7 +23,7 @@
 # **Day 3**
     - https://github.com/stevehoover/RISC-V_MYTH_Workshop?tab=readme-ov-file
 
-## Buiding a RISCV-Core [Top](#RISCV-MYTH)
+## Buiding a RISCV-Core [🔝](#RISCV-MYTH)
 
 ### Digital logic with TL-verilog in Makerchip IDE
 - TL-verilog is extension of verilog called Transaction Level Verilog
