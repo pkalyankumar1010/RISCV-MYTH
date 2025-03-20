@@ -13,7 +13,7 @@
     <span>https://github.com/pkalyankumar1010/RISCV-MYTH-Course-Videos</span>
 </details>
 
-- TASK 0 
+# **Day 0**
     - Created lab setup with OracleVirtual box and risv_workshop.vdi
     - ![setup](./images/myth_worskop_setup.jpg)
 # **Day 1**
@@ -21,7 +21,7 @@
 # **Day 2**
     - 
 # **Day 3**
-    - https://github.com/stevehoover/RISC-V_MYTH_Workshop?tab=readme-ov-file
+- https://github.com/stevehoover/RISC-V_MYTH_Workshop?tab=readme-ov-file
 
 ## Buiding a RISCV-Core [🔝](#riscv-myth)
 - [Digital logic with TL-verilog in Makerchip IDE](#digital-logic-with-tl-verilog-in-makerchip-ide)
