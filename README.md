@@ -75,7 +75,48 @@
                             ($op[1:0] == 2'b11) ? $quot[31:0] : 32'b0 )
                             ;
         ```
-- Should start with RV_D3SK3_L1_Pipelined Logic And Re-Timing video Tomorrow
+- Lab : pipelined logic
+    - To split multi operations to multi clock cycles
+    - TL vrilog coding will be easier for pipleining
+    - we dont need to manually insert buffers it inserts automatically
+    - ![A simple pipeline](./images/a_siple_pipeline.png)
+    - ![Timing Abstraction](./images/timing_abstraction.png)
+    - ![Example TL code](./images/tl_verilog_code_example_pytho.png)
+    - ![Retiming in SV](./images/retiming_in_sv.png)
+    - Implementing pipelining in verilog is difficult and error prone
+- Idenifiers and Types
+    - ![Identifiers and Types](./images/identifiers_and_types.png)
+- Lab : Pipeline
+    - ![OR Four Pipeline](./images/or_four_pipeline.png)
+- Lab : Counter and Calculator in Pipeline
+    - ![Counter and Calc Pipeline](./images/counter_and_calc_pipeline.png)
+    - ```v
+            // Stimulus
+        |calc
+            @0
+                // $valid = & $rand_valid[1:0];  // Valid with 1/4 probability
+                                            // (& over two random bits).
+                $val1[31:0] = >>2$out;
+                //$val2[31:0] = 32'b1;
+                $sum[31:0] = $val1[31:0] + $val2[31:0];
+                $diff[31:0] = $val1[31:0] - $val2[31:0];
+                $prod[31:0] = $val1[31:0] * $val2[31:0];
+                $quot[31:0] = $val1[31:0] / $val2[31:0];
+                $valid = 1 + >>1$valid;
+            @1
+                $out[31:0] =  ($reset || !$valid) ? 32'b0 : (
+                                    ($op[1:0] == 2'b00) ? $sum[31:0] :
+                                    ($op[1:0] == 2'b01) ? $diff[31:0] :
+                                    ($op[1:0] == 2'b10) ? $prod[31:0] :
+                                    ($op[1:0] == 2'b11) ? $quot[31:0] : 32'b0 )
+                                    ```
+- Validity
+    - Run our circuit when only inputs are valid
+    - Acts as clock gating logic also
+    - ? is when condition
+    - ![Validity](./images/validity.png)
+    - ![Clock Gating](./images/clock_gating.png)
+- Should start with DAY4 1st video Tomorrow
 ### Coding a RISC-V CPU Subset
 
 ### Pipelining and Completing your CPU
